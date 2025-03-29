@@ -1,12 +1,25 @@
-# React + Vite
+# Gemini Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based application that aims to replicate the user interface and basic functionality of **Google Gemini**, leveraging an external API for conversational AI capabilities and ICE (likely referring to Interactive Communication Elements or a similar UI library) for a smooth user experience. This project focuses on building a familiar and intuitive chat interface.
 
-Currently, two official plugins are available:
+## Features
+- Clean and minimalist chat interface similar to Gemini.
+- Ability to send text prompts to an AI API.
+- Displaying AI-generated responses in a conversational format.
+- Clear distinction between user input and AI output.
+- Potentially includes features like code highlighting or markdown rendering of AI responses.
+- Responsive design for use on various devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React** - Frontend framework for building the UI.
+- **[Specify API Name Here]** - API for providing the conversational AI model (e.g., a custom-built API, an open-source alternative API if one exists and is suitable).
+- **[Specify ICE Library/Techniques Here]** - Library or techniques used for creating interactive and smooth UI elements (this could be a UI component library, custom CSS animations, or state management strategies focused on responsiveness).
+- **Tailwind CSS** (Optional, but likely for rapid styling) - Utility-first CSS framework for styling.
+- **[Other relevant libraries, e.g., for markdown rendering]**
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```sh
+   git clone [repository_url_here]
+   cd gemini-clone
