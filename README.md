@@ -20,3 +20,7 @@ A React-based application that aims to replicate the user interface and basic fu
    ```sh
    git clone https://github.com/ChavindaWijethilake/gemini-clone
    cd gemini-clone
+npm install
+
+REACT_APP_AI_API_KEY=your_ai_api_key
+REACT_APP_AI_API_ENDPOINT=your_ai_api_endpoint
